@@ -37,4 +37,18 @@ class pakaian {
   set inputwarna(warna){
     _warna = warna;
   }
+
+  ubahtribut(warna, jenis, berat, harga){
+    _warna = warna;
+    _jenis = jenis;
+    _berat = berat;
+    _harga = harga;
+  }
+
+  tampilatribut(){
+    print(_warna);
+    print(_berat);
+    print(_harga);
+    print(_jenis);
+  }
 }
